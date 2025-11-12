@@ -1,0 +1,127 @@
+{
+  "success": true,
+  "data": {
+    "courses": [
+      {
+        "courseId": "MAHE-001",
+        "universityId": 1,
+        "universityName": "Manipal Academy of Higher Education",
+        "courseName": "B.Tech Computer Science",
+        "category": "Engineering",
+        "duration": "4 years",
+        "feePerYear": {
+          "min": 350000,
+          "max": 400000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "MAHE-002",
+        "universityId": 1,
+        "universityName": "Manipal Academy of Higher Education",
+        "courseName": "MBA",
+        "category": "Management",
+        "duration": "2 years",
+        "feePerYear": {
+          "min": 450000,
+          "max": 500000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "MAHE-003",
+        "universityId": 1,
+        "universityName": "Manipal Academy of Higher Education",
+        "courseName": "MBBS",
+        "category": "Medical",
+        "duration": "5.5 years",
+        "feePerYear": {
+          "min": 800000,
+          "max": 900000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "MAHE-004",
+        "universityId": 1,
+        "universityName": "Manipal Academy of Higher Education",
+        "courseName": "BBA",
+        "category": "Management",
+        "duration": "3 years",
+        "feePerYear": {
+          "min": 250000,
+          "max": 300000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "SIU-001",
+        "universityId": 2,
+        "universityName": "Symbiosis International University",
+        "courseName": "B.Tech Information Technology",
+        "category": "Engineering",
+        "duration": "4 years",
+        "feePerYear": {
+          "min": 300000,
+          "max": 350000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "SIU-002",
+        "universityId": 2,
+        "universityName": "Symbiosis International University",
+        "courseName": "MBA General Management",
+        "category": "Management",
+        "duration": "2 years",
+        "feePerYear": {
+          "min": 400000,
+          "max": 450000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "SIU-003",
+        "universityId": 2,
+        "universityName": "Symbiosis International University",
+        "courseName": "BBA",
+        "category": "Management",
+        "duration": "3 years",
+        "feePerYear": {
+          "min": 280000,
+          "max": 320000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "SIU-004",
+        "universityId": 2,
+        "universityName": "Symbiosis International University",
+        "courseName": "B.Des Fashion Design",
+        "category": "Design",
+        "duration": "4 years",
+        "feePerYear": {
+          "min": 350000,
+          "max": 400000,
+          "currency": "INR"
+        }
+      },
+      {
+        "courseId": "SIU-005",
+        "universityId": 2,
+        "universityName": "Symbiosis International University",
+        "courseName": "LLB",
+        "category": "Law",
+        "duration": "3 years",
+        "feePerYear": {
+          "min": 200000,
+          "max": 250000,
+          "currency": "INR"
+        }
+      }
+    ],
+    "total": 9,
+    "categories": ["Engineering", "Management", "Medical", "Design", "Law"]
+  },
+  "timestamp": "2025-01-12T00:00:00Z"
+}

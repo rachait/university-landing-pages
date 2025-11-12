@@ -1,0 +1,13 @@
+{
+  "name": "university-landing-pages",
+  "version": "1.0.0",
+  "description": "Two landing pages for private universities with lead form and API integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["landing-page", "university", "lead-form"],
+  "author": "",
+  "license": "MIT"
+}

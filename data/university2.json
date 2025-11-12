@@ -1,0 +1,136 @@
+{
+  "university": {
+    "id": 2,
+    "name": "Symbiosis International University",
+    "shortName": "SIU",
+    "location": "Pune, Maharashtra",
+    "established": 2002,
+    "type": "Private Deemed University",
+    "overview": {
+      "description": "Symbiosis International University is a multi-disciplinary university offering a wide range of undergraduate and postgraduate programs. Known for its academic excellence and global outlook, SIU prepares students for successful careers.",
+      "accreditation": ["NAAC A Grade", "UGC Recognized", "AIU Member"],
+      "ranking": {
+        "nirf": 25,
+        "outlook": 15,
+        "category": "University"
+      }
+    },
+    "courses": [
+      {
+        "id": 1,
+        "name": "B.Tech Information Technology",
+        "duration": "4 years",
+        "eligibility": "10+2 with PCM and minimum 60%",
+        "feeRange": {
+          "min": 300000,
+          "max": 350000,
+          "currency": "INR",
+          "per": "year"
+        },
+        "seats": 120
+      },
+      {
+        "id": 2,
+        "name": "MBA General Management",
+        "duration": "2 years",
+        "eligibility": "Graduation with 50% and valid entrance exam score",
+        "feeRange": {
+          "min": 400000,
+          "max": 450000,
+          "currency": "INR",
+          "per": "year"
+        },
+        "seats": 180
+      },
+      {
+        "id": 3,
+        "name": "BBA",
+        "duration": "3 years",
+        "eligibility": "10+2 with minimum 50%",
+        "feeRange": {
+          "min": 280000,
+          "max": 320000,
+          "currency": "INR",
+          "per": "year"
+        },
+        "seats": 150
+      },
+      {
+        "id": 4,
+        "name": "B.Des Fashion Design",
+        "duration": "4 years",
+        "eligibility": "10+2 from any stream",
+        "feeRange": {
+          "min": 350000,
+          "max": 400000,
+          "currency": "INR",
+          "per": "year"
+        },
+        "seats": 60
+      },
+      {
+        "id": 5,
+        "name": "LLB",
+        "duration": "3 years",
+        "eligibility": "Graduation in any discipline",
+        "feeRange": {
+          "min": 200000,
+          "max": 250000,
+          "currency": "INR",
+          "per": "year"
+        },
+        "seats": 120
+      }
+    ],
+    "placements": {
+      "year": 2024,
+      "statistics": {
+        "averagePackage": "6.8 LPA",
+        "highestPackage": "38 LPA",
+        "placementRate": "89%",
+        "totalRecruiters": 380
+      },
+      "topRecruiters": [
+        "Capgemini",
+        "HDFC Bank",
+        "ICICI Bank",
+        "Ernst & Young",
+        "KPMG",
+        "Tech Mahindra",
+        "Asian Paints",
+        "Hindustan Unilever"
+      ]
+    },
+    "facilities": [
+      {
+        "name": "Central Library",
+        "description": "Digital library with 1.5 lakh books and journals"
+      },
+      {
+        "name": "Student Housing",
+        "description": "Modern accommodation for domestic and international students"
+      },
+      {
+        "name": "Sports Arena",
+        "description": "Cricket, football, basketball courts and swimming pool"
+      },
+      {
+        "name": "Health Center",
+        "description": "On-campus health services with emergency care"
+      },
+      {
+        "name": "Innovation Lab",
+        "description": "Maker spaces and research labs for innovation"
+      },
+      {
+        "name": "Cafeteria",
+        "description": "Multiple dining options with diverse cuisines"
+      }
+    ],
+    "contact": {
+      "phone": "+91-20-39116000",
+      "email": "admissions@siu.edu.in",
+      "website": "https://siu.edu.in"
+    }
+  }
+}

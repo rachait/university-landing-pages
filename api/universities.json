@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": {
+    "universities": [
+      {
+        "id": 1,
+        "name": "Manipal Academy of Higher Education",
+        "shortName": "MAHE",
+        "location": "Manipal, Karnataka",
+        "established": 1953,
+        "type": "Private Deemed University",
+        "nirfRank": 6,
+        "url": "manipal.html"
+      },
+      {
+        "id": 2,
+        "name": "Symbiosis International University",
+        "shortName": "SIU",
+        "location": "Pune, Maharashtra",
+        "established": 2002,
+        "type": "Private Deemed University",
+        "nirfRank": 25,
+        "url": "symbiosis.html"
+      }
+    ],
+    "total": 2
+  },
+  "timestamp": "2025-01-12T00:00:00Z"
+}

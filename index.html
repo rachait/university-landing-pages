@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore top private universities in India - Admissions, Courses, Fees, and Placements">
+  <title>University Admissions Portal - Find Your Dream University</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .hero {
+      background: linear-gradient(135deg, #1e40af 0%, #0ea5e9 100%);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+    }
+    .university-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .university-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .university-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+    .university-card-header {
+      background: linear-gradient(135deg, #1e40af 0%, #0ea5e9 100%);
+      color: white;
+      padding: 30px;
+    }
+    .university-card-header h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.8rem;
+    }
+    .university-card-header .location {
+      opacity: 0.9;
+      font-size: 1.1rem;
+    }
+    .university-card-body {
+      padding: 30px;
+    }
+    .info-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .info-item:last-child {
+      border-bottom: none;
+    }
+    .info-label {
+      font-weight: 600;
+      color: #1f2937;
+    }
+    .info-value {
+      color: #6b7280;
+    }
+    .university-card-footer {
+      padding: 0 30px 30px 30px;
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1.1rem;
+      }
+      .university-cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Find Your Dream University</h1>
+    <p>Explore top private universities in India with comprehensive information about courses, fees, and placements</p>
+  </div>
+
+  <!-- University Cards -->
+  <div class="university-cards" id="universityList">
+    <!-- University 1 -->
+    <div class="university-card">
+      <div class="university-card-header">
+        <h2>Manipal Academy of Higher Education</h2>
+        <p class="location">📍 Manipal, Karnataka</p>
+      </div>
+      <div class="university-card-body">
+        <div class="info-item">
+          <span class="info-label">Established</span>
+          <span class="info-value">1953</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Type</span>
+          <span class="info-value">Private Deemed University</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">NIRF Ranking</span>
+          <span class="info-value">#6</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Accreditation</span>
+          <span class="info-value">NAAC A++ Grade</span>
+        </div>
+      </div>
+      <div class="university-card-footer">
+        <a href="manipal.html" class="btn btn-primary" style="width: 100%; text-align: center;">Explore MAHE</a>
+      </div>
+    </div>
+
+    <!-- University 2 -->
+    <div class="university-card">
+      <div class="university-card-header">
+        <h2>Symbiosis International University</h2>
+        <p class="location">📍 Pune, Maharashtra</p>
+      </div>
+      <div class="university-card-body">
+        <div class="info-item">
+          <span class="info-label">Established</span>
+          <span class="info-value">2002</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Type</span>
+          <span class="info-value">Private Deemed University</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">NIRF Ranking</span>
+          <span class="info-value">#25</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Accreditation</span>
+          <span class="info-value">NAAC A Grade</span>
+        </div>
+      </div>
+      <div class="university-card-footer">
+        <a href="symbiosis.html" class="btn btn-primary" style="width: 100%; text-align: center;">Explore SIU</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 University Admissions Portal. All rights reserved.</p>
+    <p>Helping students find their perfect university match</p>
+  </footer>
+</body>
+</html>
